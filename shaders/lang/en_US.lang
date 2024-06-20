@@ -1,10 +1,14 @@
 # Profiles
 
-profile.low                            = §eLow
-profile.medium                         = §aMedium
-profile.high                           = §bHigh
-profile.ultra                          = §dUltra
+option.INFO                            = §8§lMadn§7§less §6§lSha§e§lder
+option.INFO.comment                    = §eMade with §c<3 §eby ElocinDev. §6§nBased on Photon by Sixthsurge
 
+profile.lowest                         = §cBest Performance
+profile.low                            = §ePerformance
+profile.medium                         = §aBalanced
+profile.high                           = §6Quality
+profile.ultra                          = §dCinematic
+profile.comment                        = §cBest Performance§r: Lowest shadow resolution, no shadow color, no shadow VPS, no entity shadows, no block entity shadows, no environment reflections, no GTAO, no colored light shafts in air fog, no water caustics, no water parallax, and no colored lights. §ePerformance§r: Low shadow resolution, no shadow color, no shadow VPS, no entity shadows, no block entity shadows, no environment reflections, no GTAO, no colored light shafts in air fog, no water caustics, no water parallax, and no colored lights. §aBalanced§r: Medium shadow resolution, shadow VPS, no shadow color, no entity shadows, no block entity shadows, no environment reflections, no GTAO, no colored light shafts in air fog, no water caustics, no water parallax, and no colored lights. §6Quality§r: High shadow resolution, shadow color, shadow VPS, entity shadows, environment reflections, GTAO, no block entity shadows, no colored light shafts in air fog, water caustics, water parallax, and colored lights. §dCinematic§r: Ultra-high shadow resolution, shadow color, shadow VPS, entity shadows, block entity shadows, environment reflections, GTAO, colored light shafts in air fog, water caustics, water parallax, and colored lights.
 # Screens
 
 screen.world                           = World
@@ -71,11 +75,11 @@ screen.end_light_color                 = Light Color
 screen.end_ambient_color               = Ambient Color
 screen.nether_color                    = Static Color
 
-option.INFO                            = Photon Shader
-value.INFO.0                           = §eby SixthSurge
-value.INFO.1                           = §aby SixthSurge
-value.INFO.2                           = §bby SixthSurge
-value.INFO.3                           = §dby SixthSurge
+value.INFO.0                           = §cv1.0.0
+value.INFO.1                           = §ev1.0.0
+value.INFO.2                           = §av1.0.0
+value.INFO.3                           = §6v1.0.0
+value.INFO.4                           = §dv1.0.0
 
 # World settings
 
