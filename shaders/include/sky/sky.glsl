@@ -228,7 +228,7 @@ vec3 getCosmicGlow(vec3 ray_dir, int iterations) {
 
     for (int i = 0; i < iterations; i++) {
         vec3 randomPosition = vec3(rand(vec2(i, i)), rand(vec2(i + 1, i + 1)), rand(vec2(i + 2, i + 2)));
-        vec3 cosmicColor = vec3(rand(vec2(i + 3, i + 3)), rand(vec2(i + 4, i + 4)), rand(vec2(i + 5, i + 5))) * 0.333;
+        vec3 cosmicColor = vec3(rand(vec2(i + 3, i + 3)), rand(vec2(i + 4, i + 4)), rand(vec2(i + 5, i + 5))) * 0.15;
 
         float glowRadius = 1.5;
         float distanceToGlow = length(ray_dir - randomPosition);
