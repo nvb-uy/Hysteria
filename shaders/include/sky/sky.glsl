@@ -78,7 +78,7 @@ vec3 draw_stars(vec3 ray_dir) {
 #include "/include/utility/geometry.glsl"
 
 const float sun_luminance  = 40.0; // luminance of sun disk
-const float moon_luminance = 4.0; // luminance of moon disk
+const float moon_luminance = 20.0; // luminance of moon disk
 
 vec3 draw_sun(vec3 ray_dir) {
 	float nu = dot(ray_dir, sun_dir);
@@ -144,6 +144,7 @@ vec3 draw_sky(vec3 ray_dir, vec3 atmosphere) {
 #if defined PROGRAM_DEFERRED4
 	vec4 vanilla_sky = texelFetch(colortex3, ivec2(gl_FragCoord.xy), 0);
 	vec3 vanilla_sky_color = from_srgb(vanilla_sky.rgb);
+
 	uint vanilla_sky_id = uint(255.0 * vanilla_sky.a);
 
 #ifdef STARS
@@ -165,12 +166,13 @@ vec3 draw_sky(vec3 ray_dir, vec3 atmosphere) {
 		sky += vanilla_sky_color * brightness_scale;
 	}
 
-#ifdef CUSTOM_SKY
+	#ifdef CUSTOM_SKY
+	
 	if (vanilla_sky_id == 4) {
-		sky += vanilla_sky_color * CUSTOM_SKY_BRIGHTNESS;
+		sky += vanilla_sky_color * CUSTOM_SKY_BRIGHTNESS;		
 	}
-#endif
-#endif
+	#endif
+	#endif
 
 	// Sky gradient
 
@@ -192,15 +194,6 @@ vec3 draw_sky(vec3 ray_dir, vec3 atmosphere) {
 	float underground_sky_fade = biome_cave * smoothstep(-0.1, 0.1, 0.4 - ray_dir.y);
 	sky = mix(sky, vec3(0.0), underground_sky_fade);
 
-	// Sky saturation
-
-	#ifdef SKY_SATURATION
-		vec3 sky_hsv = rgb2hsv(sky);
-		
-		sky_hsv.z *= SKY_SATURATION;
-
-		sky = hsv2rgb(sky_hsv);
-	#endif
 
 	return sky;
 }
