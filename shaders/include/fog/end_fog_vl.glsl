@@ -18,12 +18,12 @@ float end_fog_density(vec3 world_pos) {
 	// fade away below the island
 	density *= linear_step(0.0, 64.0, world_pos.y);
 
-	return density;
+	return density * 3;
 }
 
 vec3 end_fog_emission(vec3 world_pos) {
 	const vec3 main_col = from_srgb(vec3(END_AMBIENT_R, END_AMBIENT_G, END_AMBIENT_B)) * END_AMBIENT_I;
-	const vec3 alt_col  = 0.5 * vec3(0.25, 1.0, 0.5);
+	const vec3 alt_col  = 0.5 * vec3(1.00, 0.25, 0.5);
 	const vec3 wind0    = vec3(1.0, 0.1, 0.5) * 0.01;
 	const vec3 wind1    = vec3(-0.7, -0.1, -0.1) * 0.05;
 
