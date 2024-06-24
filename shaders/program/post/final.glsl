@@ -1,7 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Photon Shader by SixthSurge
+  Hysteria Shaders by ElocinDev
+
+  Based on Photon Shader by SixthSurg
 
   program/program/final.glsl:
   CAS, dithering, debug views

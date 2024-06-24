@@ -3,14 +3,20 @@
 option.INFO                            = §8§lHysteria §7§lShaders
 option.INFO.comment                    = §eMade with §c<3 §eby ElocinDev. §6§nBased on Photon by Sixthsurge
 
-profile.lowest                         = §cBest Performance
-profile.low                            = §ePerformance
-profile.medium                         = §aBalanced
-profile.high                           = §6Quality
-profile.ultra                          = §dCinematic
+profile.lowest                         = §4✦§e Best Performance
+profile.low                            = §c✦§e Performance
+profile.medium                         = §a✦§e Balanced
+profile.high                           = §6✦§e Quality
+profile.ultra                          = §d✦§e Cinematic
 
 profile.comment                        = §cBest Performance§r: Lowest shadow resolution, no shadow color, no shadow VPS, no entity shadows, no block entity shadows, no environment reflections, no GTAO, no colored light shafts in air fog, no water caustics, no water parallax, and no colored lights. §ePerformance§r: Low shadow resolution, no shadow color, no shadow VPS, no entity shadows, no block entity shadows, no environment reflections, no GTAO, no colored light shafts in air fog, no water caustics, no water parallax, and no colored lights. §aBalanced§r: Medium shadow resolution, shadow VPS, no shadow color, no entity shadows, no block entity shadows, no environment reflections, no GTAO, no colored light shafts in air fog, no water caustics, no water parallax, and no colored lights. §6Quality§r: High shadow resolution, shadow color, shadow VPS, entity shadows, environment reflections, GTAO, no block entity shadows, no colored light shafts in air fog, water caustics, water parallax, and colored lights. §dCinematic§r: Ultra-high shadow resolution, shadow color, shadow VPS, entity shadows, block entity shadows, environment reflections, GTAO, colored light shafts in air fog, water caustics, water parallax, and colored lights.
 # Screens
+
+screen.easy                            = ✏ §7§lQuick Options§r
+screen.advanced                        = ✏ §f§l§nAdvanced Options§r
+
+screen.quick_night                     = §9🌛 Night Time
+screen.quick_day                       = §6☀ Day Time
 
 screen.world                           = World
 screen.lighting                        = Lighting

@@ -1,7 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Photon Shader by SixthSurge
+  Hysteria Shaders by ElocinDev
+
+  Based on Photon Shader by SixthSurg
 
   program/composite1.glsl
   Apply volumetric fog, reflections and refraction

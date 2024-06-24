@@ -1,7 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Photon Shader by SixthSurge
+  Hysteria Shaders by ElocinDev
+
+  Based on Photon Shader by SixthSurg
 
   program/post/bloom/merge_buffers.glsl:
   Copy bloom tiles from read buffer to write buffer

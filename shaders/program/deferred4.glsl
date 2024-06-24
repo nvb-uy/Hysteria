@@ -1,7 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Photon Shader by SixthSurge
+  Hysteria Shaders by ElocinDev
+
+  Based on Photon Shader by SixthSurg
 
   program/deferred4.glsl:
   Shade terrain and entities, draw sky
