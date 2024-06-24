@@ -17,15 +17,18 @@ screen.advanced                        = ✏ §f§l§nAdvanced Options§r
 
 screen.quick_night                     = §9🌛 Night Time
 screen.quick_day                       = §6☀ Day Time
+screen.fog_atmospherics                = §9☁ Fog & Atmospherics
+screen.shadow_reflections              = §6❏ Shadows & Lighting
 
-screen.world                           = World
-screen.lighting                        = Lighting
-screen.sky                             = Sky
-screen.fog                             = Fog
-screen.materials                       = Materials
-screen.water                           = Water
-screen.post                            = Post-Processing
-screen.misc                            = Misc
+screen.world                           = §a🌎§r World
+screen.lighting                        = §6☀§r Lighting
+screen.sky                             = §3☁§r Sky
+screen.fog                             = §7🌫§r Fog
+screen.materials                       = §e☼§r Material & Reflections
+screen.water                           = §b🌊§r Water
+screen.post                            = §e▓§r Post-Processing
+screen.misc                            = §e⌛§r Misc
+
 screen.box                             = Box
 
 screen.colored_lights                  = Colored Lights Settings
