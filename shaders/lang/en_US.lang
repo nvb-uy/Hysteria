@@ -35,6 +35,7 @@ screen.light_sources                   = Light Sources
 screen.shadows                         = Shadows
 screen.color_grading                   = Color Grading
 screen.exposure                        = Exposure
+screen.end_settings                    = End World Features
 
 screen.aurora                          = Aurora
 screen.clouds                          = Clouds
@@ -63,6 +64,7 @@ screen.fog_rlh_jungle                  = Jungle Color
 screen.fog_rlh_swamp                   = Swamp Color
 screen.water_waves                     = Water Waves
 screen.water_fog_coeff                 = Water Fog Coefficients
+screen.end_fog_settings                = End Fog Options
 
 screen.weather                         = Daily Weather System
 screen.weather_d0                      = Day 0
@@ -112,6 +114,8 @@ option.DESERT_SANDSTORM                = Desert Sandstorm
 option.DESERT_SANDSTORM.comment        = Sandstorm during rain in desert biome
 option.END_GLOW                        = End Glow
 option.END_GLOW.comment                = Wavery glowing effect in the End. Requires Volumetric Lighting
+option.END_BLACK_HOLE                  = Black Hole in the Sky
+option.END_BLACK_HOLE.comment                = Adds Hysteria's Black Hole in the End's Sky
 
 # Lighting settings
 
@@ -424,6 +428,12 @@ option.AIR_FOG_MIE_DENSITY_EVENING     = Evening Density
 option.AIR_FOG_MIE_DENSITY_MIDNIGHT    = Midnight Density
 option.AIR_FOG_MIE_DENSITY_RAIN        = Rain Density
 option.AIR_FOG_MIE_DENSITY_BLUE_HOUR   = Dawn/Dusk Density
+
+screen.end_fog_primary_colors          = End Fog Colors (Primary)
+screen.end_fog_secondary_colors        = End Fog Colors (Secondary)
+option.END_FOG_PRIMARY_I               = End Fog Intensity (Primary)
+option.END_FOG_SECONDARY_I             = End Fog Intensity (Secondary)
+option.END_FOG_DENSITY                 = End Fog Intensity
 
 # Materials settings
 
