@@ -48,8 +48,8 @@ screen.clouds_cumulus_congestus        = Cumulus Congestus Clouds Settings
 screen.clouds_cirrus                   = Cirrus Clouds Settings
 screen.clouds_minecrafty               = Blocky Clouds Settings
 
-screen.fog_rlh                         = Rayleigh Coefficient
-screen.fog_mie                         = Mie Coefficient
+screen.fog_rlh                         = Distant Fog
+screen.fog_mie                         = Ground Fog
 screen.sunlight_color                  = Sunlight Color
 screen.moonlight_color                 = Moonlight Color
 screen.blocklight_color                = Blocklight Color
