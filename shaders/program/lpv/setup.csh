@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Hysteria Shaders by ElocinDev
+  Pastel Shaders by ElocinDev
 
-  Based on Photon Shader by SixthSurg
+  Fork of Hysteria. Based on Photon Shader by SixthSurg
 
   program/lpv/setup.csh:
   Store light colors and tint colors in SSBO

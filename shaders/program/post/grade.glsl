@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Hysteria Shaders by ElocinDev
+  Pastel Shaders by ElocinDev
 
-  Based on Photon Shader by SixthSurg
+  Fork of Hysteria. Based on Photon Shader by SixthSurg
 
   program/post/grade.glsl:
   Apply bloom, color grading and tone mapping then convert to rec. 709

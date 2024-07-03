@@ -178,6 +178,7 @@ vec3 draw_sky(vec3 ray_dir, vec3 atmosphere) {
 
 	sky *= atmosphere_transmittance(ray_dir.y, planet_radius) * (1.0 - rainStrength);
 	sky += atmosphere;
+	
 
 	// Rain
 	vec3 rain_sky = get_weather_color() * (1.0 - exp2(-0.8 / clamp01(ray_dir.y)));

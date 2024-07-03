@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Hysteria Shaders by ElocinDev
+  Pastel Shaders by ElocinDev
 
-  Based on Photon Shader by SixthSurg
+  Fork of Hysteria. Based on Photon Shader by SixthSurg
 
   program/deferred1.glsl:
   Render clouds and aurora
