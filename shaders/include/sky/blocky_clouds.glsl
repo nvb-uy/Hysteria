@@ -58,7 +58,7 @@ float blocky_clouds_density(vec3 world_pos, float altitude_fraction, float layer
 
 	// Minecraft cloud noise
 
-	float density = texture_soft(depthtex2, world_pos.xz * 0.00018, roundness);
+	float density = texture_soft(depthtex2, world_pos.xz * 0.000175, roundness);
 
 	// Adjust density
 	density *= linear_step(0.0, roundness, altitude_fraction);
@@ -196,9 +196,9 @@ vec4 raymarch_blocky_clouds(
 
 	vec3 light_dir = moonlit ? moon_dir : sun_dir;
 
-	vec3 light_color  = moonlit ? moon_color : sun_color;
+	vec3 light_color  = moonlit ? moon_color * 0.3 : sun_color;
 	     light_color *= atmosphere_transmittance(light_dir.y, planet_radius + 1e3);
-		 light_color *= 1.5 - 0.5 * smoothstep(0.0, 0.15, abs(sun_dir.y));
+		 light_color *= moonlit ? (0.5 - 0.5 * smoothstep(0.0, 0.15, abs(sun_dir.y))) : (1.5 - 0.5 * smoothstep(0.0, 0.15, abs(sun_dir.y)));
 		 light_color *= 1.0 - rainStrength;
 
 	float cos_theta = dot(world_dir, light_dir);
