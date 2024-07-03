@@ -250,7 +250,7 @@ const float wetnessHalflife         = 70.0;
 // -------
 
   #define VL
-  #define VL_QUALITY 2 // [1 2 3 4 5 10]
+  #define VL_QUALITY 2 // [1 2 4 10]
   #define BORDER_FOG
   #define CAVE_FOG
 //#define BLOOMY_FOG
