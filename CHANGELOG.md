@@ -1,3 +1,6 @@
+# 1.2.1
+- Fixed rain effects not showing properly on Iris 1.7 (photon/507aa35)
+
 # 1.2.0
 - Dusk is now darker, and its ground fog was increased
 
