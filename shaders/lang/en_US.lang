@@ -87,11 +87,11 @@ screen.end_light_color                 = Light Color
 screen.end_ambient_color               = Ambient Color
 screen.nether_color                    = Static Color
 
-value.INFO.0                           = §cv1.1.0
-value.INFO.1                           = §ev1.1.0
-value.INFO.2                           = §av1.1.0
-value.INFO.3                           = §6v1.1.0
-value.INFO.4                           = §dv1.1.0
+value.INFO.0                           = §cv1.2.1
+value.INFO.1                           = §ev1.2.1
+value.INFO.2                           = §av1.2.1
+value.INFO.3                           = §6v1.2.1
+value.INFO.4                           = §dv1.2.1
 
 # World settings
 
