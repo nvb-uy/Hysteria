@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Hysteria Shaders by ElocinDev
+  Cinderstone Shaders by ElocinDev
 
-  Based on Photon Shader by SixthSurg
+  Based on Hysteria, my fork of Photon Shader by Sixthsurge
 
   program/post/fxaa.fsh
   FXAA v3.11 from http://blog.simonrodriguez.fr/articles/2016/07/implementing_fxaa.html

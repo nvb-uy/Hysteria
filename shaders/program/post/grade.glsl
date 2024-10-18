@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Hysteria Shaders by ElocinDev
+  Cinderstone Shaders by ElocinDev
 
-  Based on Photon Shader by SixthSurg
+  Based on Hysteria, my fork of Photon Shader by Sixthsurge
 
   program/post/grade.glsl:
   Apply bloom, color grading and tone mapping then convert to rec. 709

@@ -1,9 +1,9 @@
 /*
 --------------------------------------------------------------------------------
 
-  Hysteria Shaders by ElocinDev
+  Cinderstone Shaders by ElocinDev
 
-  Based on Photon Shader by SixthSurg
+  Based on Hysteria, my fork of Photon Shader by Sixthsurge
 
   program/post/bloom/gaussian0.fsh
   1D horizontal gaussian blur pass for bloom tiles

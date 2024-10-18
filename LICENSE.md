@@ -134,7 +134,7 @@ by this project's author.
 # Other Licenses
 
 ## Photon
-Hysteria includes a lot of code from Photon, as it's based upon it
+Cinderstone includes a lot of code from Photon, as it's based upon it
 
 MIT License
 

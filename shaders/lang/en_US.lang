@@ -1,7 +1,7 @@
 # Profiles
 
-option.INFO                            = §8§lHysteria §7§lShaders
-option.INFO.comment                    = §eMade with §c<3 §eby ElocinDev. §6§nBased on Photon by Sixthsurge
+option.INFO                            = §6§lCinderstone Shaders
+option.INFO.comment                    = §eMade with §c<3 §eby ElocinDev. §6§nBased on Hysteria, my fork of Photon by Sixthsurge
 
 profile.lowest                         = §4✦§e Best Performance
 profile.low                            = §c✦§e Performance
@@ -117,8 +117,8 @@ option.DESERT_SANDSTORM                = Desert Sandstorm
 option.DESERT_SANDSTORM.comment        = Sandstorm during rain in desert biome
 option.END_GLOW                        = End Glow
 option.END_GLOW.comment                = Wavery glowing effect in the End. Requires Volumetric Lighting
-option.END_BLACK_HOLE                  = Black Hole in the Sky
-option.END_BLACK_HOLE.comment                = Adds Hysteria's Black Hole in the End's Sky
+option.END_BLACK_HOLE                  = Destructor of all things
+option.END_BLACK_HOLE.comment          = Adds Hysteria's "Black Hole" in the End's Sky
 
 # Lighting settings
 
