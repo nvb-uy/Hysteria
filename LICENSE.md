@@ -1,4 +1,5 @@
-# Hyseria Shaders
+# Cinderstone Shaders
+Fork of Hysteria Shaders by ElocinDev
 
 ### AGNYA License
 
